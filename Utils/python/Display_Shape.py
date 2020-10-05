@@ -1,4 +1,5 @@
-#!/bin/python2
+#!/usr/bin/env python
+
 """
 Displays 3d view of the shape given by shapefile
 Usage: ./Display_Shape shapefile
@@ -9,6 +10,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
+
 input=sys.argv[1]
 tlist,vlist=Read_Shape(input)
 tlist=tlist-1

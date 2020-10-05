@@ -16,7 +16,7 @@ CFLAGS:=$(CFLAGS) -I$(MKLROOT)/include
 DEFINE=USE_MKL
 else
 #LDLIBS=-lm  -llapacke -llapack -lf77blas -latlas -lcblas -fopenmp  wcstools-3.9.2/libwcs/libwcs.a
-LDLIBS=-lm    -lgfortran -llapacke -lblas -fopenmp  wcstools-3.9.2/libwcs/libwcs.a
+LDLIBS=-lm    -lgfortran -llapacke -lblas -lcblas -fopenmp  wcstools-3.9.2/libwcs/libwcs.a
 #LDLIBS=-lm  -llapacke -llapack -lblas -lgslcblas -fopenmp -I/usr/include/lapacke wcstools-3.9.2/libwcs/libwcs.a
 DEFINE=NO_MKL
 endif

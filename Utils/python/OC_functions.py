@@ -109,13 +109,5 @@ def Plot_Occ(tlist,vlist,angles,offset,OCCs,index):
             plt.plot([a[0],b[0]],[a[1],b[1]],'k-')
         if ctype<0:
             plt.plot([a[0],b[0]],[a[1],b[1]],'k--')
-        #plt.savefig('/tmp/test.pdf',format='pdf')
+        #plt.savefig('occplot.pdf',format='pdf')
 
-
-
-    
- 
-    
-
-    
-    

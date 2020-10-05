@@ -4,7 +4,7 @@
 #include"matrix_ops.h"
 #include"structs.h"
 #include"globals.h"
-double *INI_AO_TOTAL_BRIGHT;
+//double *INI_AO_TOTAL_BRIGHT;
 void fit_model_albedo(LCstruct *LC,AOstruct *AO,double** feAlbedo,int* alblength)
 {
     //First initialize the initial shape
